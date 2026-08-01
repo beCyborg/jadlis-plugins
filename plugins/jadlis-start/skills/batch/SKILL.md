@@ -107,7 +107,7 @@ claude plugin install <имя>@jadlis
 Установка упала («marketplace not found») → маркетплейс не добавлен. Одна команда:
 
 ```bash
-CLAUDE_CODE_PLUGIN_PREFER_HTTPS=1 claude plugin marketplace add https://github.com/beCyborg/jadlis.git
+CLAUDE_CODE_PLUGIN_PREFER_HTTPS=1 claude plugin marketplace add https://github.com/beCyborg/jadlis-plugins.git
 ```
 
 Полный HTTPS-URL обязателен: shorthand `owner/repo` клонируется по SSH, а SSH-ключа у

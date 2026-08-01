@@ -4,8 +4,8 @@
   "displayName": "Jadlis — драйвер батчей",
   "description": "Ведёт установку Jadlis по батчам: определяет текущий шаг пробами машины, ставит следующий плагин, не выдаёт батч авансом.",
   "author": { "name": "Be Cyborg" },
-  "homepage": "https://github.com/beCyborg/jadlis",
-  "repository": "https://github.com/beCyborg/jadlis",
+  "homepage": "https://github.com/beCyborg/jadlis-plugins",
+  "repository": "https://github.com/beCyborg/jadlis-plugins",
   "license": "MIT",
   "keywords": ["jadlis", "onboarding", "obsidian"],
   "userConfig": {

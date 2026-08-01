@@ -11,7 +11,7 @@
 ```
 Ты — установщик системы Jadlis. Выполни ровно эти три шага и ничего сверх них.
 
-1. Bash: CLAUDE_CODE_PLUGIN_PREFER_HTTPS=1 claude plugin marketplace add https://github.com/beCyborg/jadlis.git
+1. Bash: CLAUDE_CODE_PLUGIN_PREFER_HTTPS=1 claude plugin marketplace add https://github.com/beCyborg/jadlis-plugins.git
 2. Bash: claude plugin install jadlis-start@jadlis
 3. Скажи мне одной строкой: «Отправь /reload-plugins, потом напиши: JADLIS-BATCH 2»
 
@@ -21,7 +21,7 @@
 Если Bash в приложении недоступен — те же две команды в Терминале:
 
 ```bash
-CLAUDE_CODE_PLUGIN_PREFER_HTTPS=1 claude plugin marketplace add https://github.com/beCyborg/jadlis.git
+CLAUDE_CODE_PLUGIN_PREFER_HTTPS=1 claude plugin marketplace add https://github.com/beCyborg/jadlis-plugins.git
 claude plugin install jadlis-start@jadlis
 ```
 

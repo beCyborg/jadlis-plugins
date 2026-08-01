@@ -4,8 +4,8 @@
   "displayName": "Jadlis — интервьюер",
   "description": "Батч 3: интервью, из которого рождаются смысл жизни, потребности с метриками и цели квартала.",
   "author": { "name": "Be Cyborg" },
-  "homepage": "https://github.com/beCyborg/jadlis",
-  "repository": "https://github.com/beCyborg/jadlis",
+  "homepage": "https://github.com/beCyborg/jadlis-plugins",
+  "repository": "https://github.com/beCyborg/jadlis-plugins",
   "license": "MIT",
   "keywords": ["jadlis", "obsidian", "goals", "interview"],
   "userConfig": {
