@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "jadlis-vault",
+  "displayName": "Jadlis — рабочее место",
+  "description": "Батч 2: раскладывает скелет vault, CLAUDE.md и сниппет hide-files.css, ведёт первый перезапуск дня.",
+  "author": { "name": "Be Cyborg" },
+  "homepage": "https://github.com/beCyborg/jadlis",
+  "repository": "https://github.com/beCyborg/jadlis",
+  "license": "MIT",
+  "keywords": ["jadlis", "obsidian", "vault"],
+  "userConfig": {
+    "VAULT_PATH": {
+      "type": "directory",
+      "title": "Папка vault",
+      "description": "Корень Obsidian-vault системы Jadlis. По умолчанию ~/Jadlis — если так и назвал папку, просто нажми Enter.",
+      "default": "~/Jadlis",
+      "required": false
+    }
+  }
+}

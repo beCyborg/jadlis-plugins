@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "jadlis-start",
+  "displayName": "Jadlis — драйвер батчей",
+  "description": "Ведёт установку Jadlis по батчам: определяет текущий шаг пробами машины, ставит следующий плагин, не выдаёт батч авансом.",
+  "author": { "name": "Be Cyborg" },
+  "homepage": "https://github.com/beCyborg/jadlis",
+  "repository": "https://github.com/beCyborg/jadlis",
+  "license": "MIT",
+  "keywords": ["jadlis", "onboarding", "obsidian"],
+  "userConfig": {
+    "VAULT_PATH": {
+      "type": "directory",
+      "title": "Папка vault",
+      "description": "Корень Obsidian-vault системы Jadlis. По умолчанию ~/Jadlis — если так и назвал папку, просто нажми Enter.",
+      "default": "~/Jadlis",
+      "required": false
+    }
+  }
+}

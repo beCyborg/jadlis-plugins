@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "jadlis-interviewer",
+  "displayName": "Jadlis — интервьюер",
+  "description": "Батч 3: интервью, из которого рождаются смысл жизни, потребности с метриками и цели квартала.",
+  "author": { "name": "Be Cyborg" },
+  "homepage": "https://github.com/beCyborg/jadlis",
+  "repository": "https://github.com/beCyborg/jadlis",
+  "license": "MIT",
+  "keywords": ["jadlis", "obsidian", "goals", "interview"],
+  "userConfig": {
+    "VAULT_PATH": {
+      "type": "directory",
+      "title": "Папка vault",
+      "description": "Корень Obsidian-vault системы Jadlis. По умолчанию ~/Jadlis — если так и назвал папку, просто нажми Enter.",
+      "default": "~/Jadlis",
+      "required": false
+    }
+  }
+}

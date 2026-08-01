@@ -1,0 +1,9 @@
+/* hide-files — прячет из дерева файлов служебное, что не является заметками.
+   Включается в Obsidian: Settings → Appearance → CSS snippets → hide-files.
+   Добавляй свои строки по мере появления служебных папок. */
+
+div[data-path="AI"],
+div[data-path="AGENTS.md"],
+div[data-path="CLAUDE.md"] {
+  display: none;
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jadlis",
+  "owner": {
+    "name": "Be Cyborg",
+    "url": "https://github.com/beCyborg"
+  },
+  "description": "Jadlis — персональная система управления жизнью в Obsidian: батч-драйвер, скелет vault, интервьюер, ресерч-стек.",
+  "plugins": [
+    {
+      "name": "jadlis-start",
+      "source": "./plugins/jadlis-start",
+      "category": "productivity",
+      "tags": [
+        "jadlis",
+        "onboarding",
+        "obsidian"
+      ],
+      "description": "Батч-драйвер передачи Jadlis: определяет текущий шаг пробами машины, ставит следующий плагин, не выдаёт батч авансом."
+    },
+    {
+      "name": "jadlis-vault",
+      "source": "./plugins/jadlis-vault",
+      "category": "productivity",
+      "tags": [
+        "jadlis",
+        "obsidian",
+        "vault"
+      ],
+      "description": "Батч 2: раскладывает скелет vault, CLAUDE.md и сниппет hide-files.css, ведёт первый перезапуск дня."
+    },
+    {
+      "name": "jadlis-interviewer",
+      "source": "./plugins/jadlis-interviewer",
+      "category": "productivity",
+      "tags": [
+        "jadlis",
+        "obsidian",
+        "goals"
+      ],
+      "description": "Батч 3: интервьюер — доводит vault до смысла жизни, потребностей с метриками и целей квартала."
+    },
+    {
+      "name": "jadlis-research",
+      "source": "./plugins/jadlis-research",
+      "category": "research",
+      "tags": [
+        "jadlis",
+        "research",
+        "search",
+        "verification"
+      ],
+      "description": "Батч 4: ресерч-стек — search, full-research, search-paper, verif плюс пять MCP-серверов и скилл настройки ключей."
+    }
+  ],
+  "renames": {}
+}
