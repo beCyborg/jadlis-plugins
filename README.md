@@ -36,9 +36,9 @@ claude plugin install jadlis-start@jadlis
 | `jadlis-start` | — | драйвер: определяет текущий шаг пробами машины, ставит следующий плагин, держит гейты |
 | `jadlis-vault` | 2 | скелет папок, `CLAUDE.md`, сниппет `hide-files.css`, первый перезапуск дня |
 | `jadlis-interviewer` | 3 | интервью: смысл жизни, потребности с метриками, цели квартала |
-| `jadlis-research` | 4 | `search`, `full-research`, `search-paper`, `verif` + пять MCP-серверов + скилл ключей |
+| `jadlis-research` | 4 | `search`, `full-research`, `search-paper`, `verif` + шесть MCP-серверов + скилл ключей |
 
-`jadlis-research` ставится **выключенным** (`defaultEnabled: false`): он тянет пять MCP-серверов и четыре платных сервиса. Включается явно на батче 4.
+`jadlis-research` ставится **выключенным** (`defaultEnabled: false`): он тянет шесть MCP-серверов и четыре платных сервиса (плюс два опциональных ключа — `REDDITAPIS_KEY` и `YC_SEARCH_API_KEY`; без них резервный Reddit-MCP и канал `yandex` просто выключены). Включается явно на батче 4.
 
 Плагины намеренно **не зависят** друг от друга. Иначе установка батча 4 подтянула бы всё сразу и гейт «не перепрыгивать» исчез бы.
 
